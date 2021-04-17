@@ -1,7 +1,5 @@
-import React from 'react'
-
-export default function Home(props) {
+export default function Roots(props) {
     return(
-        <h1>Home</h1>
+        <h1>Roots</h1>
     )
 }
