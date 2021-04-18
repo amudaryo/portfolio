@@ -4,6 +4,7 @@ import AppBar from '@material-ui/core/AppBar'
 import Button from '@material-ui/core/Button'
 import Toolbar from '@material-ui/core/Toolbar'
 import {Link}from 'react-router-dom'
+import Mycelium from './icons'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -28,7 +29,7 @@ export default function MyAppBar(props){
             <Button color="inherit" component={Link} exact to={'/'}>Home</Button>
             <Button color="inherit" component={Link}  to={'/roots'}>Roots</Button>
             <Button color="inherit" component={Link}  to={'/growth'}>Growth</Button>
-            <Button color="inherit" component={Link}  to={'/mycelium'}>Mycelium</Button>
+            <Button color="inherit" component={Link}  to={'/mycelium'}> <Mycelium /> Mycelium</Button>
             </Toolbar>
         </AppBar> 
         </div>
