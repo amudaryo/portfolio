@@ -17,7 +17,7 @@ export default function Growth(props) {
     return(
         <div className={classes.root}>
             <h1>Growth</h1>
-            <p>ojgeoirjg <span className={classes.red}>sdfsdsdgs </span> oerje oreojt oerjterj trejtej jtreojteorjteor jjteoritjre jtreotjreitj erorijteoirtje jteroitjreoit reotjreoit reoijtreojtj reojtoreitj eoirjteor jtreoijtoreitjoreijt reojtjoerjt </p>
+            <p>Currently I am a student at <span className={classes.red}>DCI Berlin</span>. </p>
         </div>
         
     )
